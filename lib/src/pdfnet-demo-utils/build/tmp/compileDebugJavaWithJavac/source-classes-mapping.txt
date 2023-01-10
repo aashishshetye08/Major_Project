@@ -1,0 +1,796 @@
+com/pdftron/demo/app/SimpleReaderActivity.java
+ com.pdftron.demo.app.SimpleReaderActivity
+ com.pdftron.demo.app.SimpleReaderActivity$1
+ com.pdftron.demo.app.SimpleReaderActivity$2
+com/pdftron/demo/navigation/adapter/ContentRecyclerAdapter.java
+ com.pdftron.demo.navigation.adapter.ContentRecyclerAdapter
+ com.pdftron.demo.navigation.adapter.ContentRecyclerAdapter$ContentInfoKey
+ com.pdftron.demo.navigation.adapter.ContentRecyclerAdapter$ItemViewHolder
+com/pdftron/demo/utils/ExternalFileManager.java
+ com.pdftron.demo.utils.ExternalFileManager
+ com.pdftron.demo.utils.ExternalFileManager$1
+ com.pdftron.demo.utils.ExternalFileManager$10
+ com.pdftron.demo.utils.ExternalFileManager$11
+ com.pdftron.demo.utils.ExternalFileManager$12
+ com.pdftron.demo.utils.ExternalFileManager$13
+ com.pdftron.demo.utils.ExternalFileManager$14
+ com.pdftron.demo.utils.ExternalFileManager$15
+ com.pdftron.demo.utils.ExternalFileManager$16
+ com.pdftron.demo.utils.ExternalFileManager$17
+ com.pdftron.demo.utils.ExternalFileManager$18
+ com.pdftron.demo.utils.ExternalFileManager$19
+ com.pdftron.demo.utils.ExternalFileManager$19$1
+ com.pdftron.demo.utils.ExternalFileManager$2
+ com.pdftron.demo.utils.ExternalFileManager$20
+ com.pdftron.demo.utils.ExternalFileManager$21
+ com.pdftron.demo.utils.ExternalFileManager$22
+ com.pdftron.demo.utils.ExternalFileManager$23
+ com.pdftron.demo.utils.ExternalFileManager$3
+ com.pdftron.demo.utils.ExternalFileManager$4
+ com.pdftron.demo.utils.ExternalFileManager$5
+ com.pdftron.demo.utils.ExternalFileManager$6
+ com.pdftron.demo.utils.ExternalFileManager$7
+ com.pdftron.demo.utils.ExternalFileManager$8
+ com.pdftron.demo.utils.ExternalFileManager$9
+ com.pdftron.demo.utils.ExternalFileManager$DeleteFileAsync
+ com.pdftron.demo.utils.ExternalFileManager$DeleteFileAsync$1
+ com.pdftron.demo.utils.ExternalFileManager$DeleteFileAsync$2
+ com.pdftron.demo.utils.ExternalFileManager$DuplicateFileTask
+ com.pdftron.demo.utils.ExternalFileManager$DuplicateFileTask$1
+ com.pdftron.demo.utils.ExternalFileManager$DuplicateFileTask$2
+ com.pdftron.demo.utils.ExternalFileManager$MergeFileTask
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask$1
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask$2
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask$3
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask$4
+ com.pdftron.demo.utils.ExternalFileManager$MoveFileTask$5
+ com.pdftron.demo.utils.ExternalFileManager$MoveTrashFileAsync
+ com.pdftron.demo.utils.ExternalFileManager$MoveTrashFileAsync$1
+ com.pdftron.demo.utils.ExternalFileManager$MoveTrashFileAsync$2
+ com.pdftron.demo.utils.ExternalFileManager$RemoveAccessTask
+ com.pdftron.demo.utils.ExternalFileManager$RemoveAccessTask$1
+ com.pdftron.demo.utils.ExternalFileManager$RestoreTrashFileAsync
+ com.pdftron.demo.utils.ExternalFileManager$RestoreTrashFileAsync$1
+ com.pdftron.demo.utils.ExternalFileManager$RestoreTrashFileAsync$2
+ com.pdftron.demo.utils.ExternalFileManager$TrashFileAsync
+ com.pdftron.demo.utils.ExternalFileManager$TrashFileAsync$1
+ com.pdftron.demo.utils.ExternalFileManager$TrashFileAsync$2
+com/pdftron/demo/browser/db/tree/DocumentTreeDatabase.java
+ com.pdftron.demo.browser.db.tree.DocumentTreeDatabase
+com/pdftron/demo/BuildConfig.java
+ com.pdftron.demo.BuildConfig
+com/pdftron/demo/databinding/FragmentCriticalPermissionDialogBinding.java
+ com.pdftron.demo.databinding.FragmentCriticalPermissionDialogBinding
+com/pdftron/demo/utils/CacheUtils.java
+ com.pdftron.demo.utils.CacheUtils
+ com.pdftron.demo.utils.CacheUtils$1
+ com.pdftron.demo.utils.CacheUtils$2
+ com.pdftron.demo.utils.CacheUtils$3
+com/pdftron/demo/databinding/DialogAboutBinding.java
+ com.pdftron.demo.databinding.DialogAboutBinding
+com/pdftron/demo/databinding/FastscrollerBinding.java
+ com.pdftron.demo.databinding.FastscrollerBinding
+com/pdftron/demo/asynctask/PopulateFolderTask.java
+ com.pdftron.demo.asynctask.PopulateFolderTask
+ com.pdftron.demo.asynctask.PopulateFolderTask$Callback
+com/pdftron/demo/databinding/FragmentLocalFolderViewBinding.java
+ com.pdftron.demo.databinding.FragmentLocalFolderViewBinding
+com/pdftron/demo/databinding/FragmentFilePickerDialogBinding.java
+ com.pdftron.demo.databinding.FragmentFilePickerDialogBinding
+com/pdftron/demo/databinding/RecyclerviewHeaderItemBinding.java
+ com.pdftron.demo.databinding.RecyclerviewHeaderItemBinding
+com/pdftron/demo/browser/db/converter/DateConverter.java
+ com.pdftron.demo.browser.db.converter.DateConverter
+com/pdftron/demo/navigation/FileBrowserViewFragment.java
+ com.pdftron.demo.navigation.FileBrowserViewFragment
+ com.pdftron.demo.navigation.FileBrowserViewFragment$1
+com/pdftron/demo/navigation/ExternalStorageViewFragment.java
+ com.pdftron.demo.navigation.ExternalStorageViewFragment
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$1
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$10
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$11
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$12
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$13
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$14
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$15
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$15$1
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$2
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$3
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$3$1
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$4
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$5
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$5$1
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$6
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$7
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$8
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$9
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$ExternalStorageViewFragmentListener
+ com.pdftron.demo.navigation.ExternalStorageViewFragment$LoadingFileHandler
+com/pdftron/demo/app/setting/GeneralFragmentBase.java
+ com.pdftron.demo.app.setting.GeneralFragmentBase
+com/pdftron/demo/browser/model/FileItem.java
+ com.pdftron.demo.browser.model.FileItem
+com/pdftron/demo/databinding/FileInfoDrawerSpacerItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerSpacerItemBinding
+com/pdftron/demo/navigation/component/html2pdf/view/HtmlConversionUiView.java
+ com.pdftron.demo.navigation.component.html2pdf.view.HtmlConversionUiView
+com/pdftron/demo/databinding/StickyHeaderBinding.java
+ com.pdftron.demo.databinding.StickyHeaderBinding
+com/pdftron/demo/databinding/FileInfoDrawerHeaderItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerHeaderItemBinding
+com/pdftron/demo/browser/db/folder/FolderDao.java
+ com.pdftron.demo.browser.db.folder.FolderDao
+com/pdftron/demo/navigation/adapter/TrashAdapter.java
+ com.pdftron.demo.navigation.adapter.TrashAdapter
+ com.pdftron.demo.navigation.adapter.TrashAdapter$Theme
+ com.pdftron.demo.navigation.adapter.TrashAdapter$TrashViewHolder
+com/pdftron/demo/browser/ui/FilesDatabaseUpdater.java
+ com.pdftron.demo.browser.ui.FilesDatabaseUpdater
+ com.pdftron.demo.browser.ui.FilesDatabaseUpdater$1
+ com.pdftron.demo.browser.ui.FilesDatabaseUpdater$2
+com/pdftron/demo/navigation/callbacks/MainActivityListener.java
+ com.pdftron.demo.navigation.callbacks.MainActivityListener
+com/pdftron/demo/databinding/FragmentMergeDialogBinding.java
+ com.pdftron.demo.databinding.FragmentMergeDialogBinding
+com/pdftron/demo/navigation/adapter/viewholder/HeaderViewHolder.java
+ com.pdftron.demo.navigation.adapter.viewholder.HeaderViewHolder
+com/pdftron/demo/navigation/adapter/ExternalStorageAdapter.java
+ com.pdftron.demo.navigation.adapter.ExternalStorageAdapter
+com/pdftron/demo/app/setting/StylusFragmentBase.java
+ com.pdftron.demo.app.setting.StylusFragmentBase
+ com.pdftron.demo.app.setting.StylusFragmentBase$1
+com/pdftron/demo/browser/db/folder/FolderDatabase.java
+ com.pdftron.demo.browser.db.folder.FolderDatabase
+com/pdftron/demo/browser/db/file/DocumentFileDatabase.java
+ com.pdftron.demo.browser.db.file.DocumentFileDatabase
+com/pdftron/demo/dialog/ImportWebpageUrlSelectorDialogFragment.java
+ com.pdftron.demo.dialog.ImportWebpageUrlSelectorDialogFragment
+ com.pdftron.demo.dialog.ImportWebpageUrlSelectorDialogFragment$1
+ com.pdftron.demo.dialog.ImportWebpageUrlSelectorDialogFragment$2
+ com.pdftron.demo.dialog.ImportWebpageUrlSelectorDialogFragment$3
+ com.pdftron.demo.dialog.ImportWebpageUrlSelectorDialogFragment$OnLinkSelectedListener
+com/pdftron/demo/browser/db/file/FileEntity.java
+ com.pdftron.demo.browser.db.file.FileEntity
+com/pdftron/demo/app/AdvancedReaderActivity.java
+ com.pdftron.demo.app.AdvancedReaderActivity
+ com.pdftron.demo.app.AdvancedReaderActivity$1
+ com.pdftron.demo.app.AdvancedReaderActivity$10
+ com.pdftron.demo.app.AdvancedReaderActivity$11
+ com.pdftron.demo.app.AdvancedReaderActivity$12
+ com.pdftron.demo.app.AdvancedReaderActivity$13
+ com.pdftron.demo.app.AdvancedReaderActivity$14
+ com.pdftron.demo.app.AdvancedReaderActivity$15
+ com.pdftron.demo.app.AdvancedReaderActivity$16
+ com.pdftron.demo.app.AdvancedReaderActivity$17
+ com.pdftron.demo.app.AdvancedReaderActivity$18
+ com.pdftron.demo.app.AdvancedReaderActivity$19
+ com.pdftron.demo.app.AdvancedReaderActivity$2
+ com.pdftron.demo.app.AdvancedReaderActivity$20
+ com.pdftron.demo.app.AdvancedReaderActivity$3
+ com.pdftron.demo.app.AdvancedReaderActivity$4
+ com.pdftron.demo.app.AdvancedReaderActivity$5
+ com.pdftron.demo.app.AdvancedReaderActivity$6
+ com.pdftron.demo.app.AdvancedReaderActivity$7
+ com.pdftron.demo.app.AdvancedReaderActivity$8
+ com.pdftron.demo.app.AdvancedReaderActivity$9
+ com.pdftron.demo.app.AdvancedReaderActivity$BrowserType
+com/pdftron/demo/databinding/SearchSettingFragmentBinding.java
+ com.pdftron.demo.databinding.SearchSettingFragmentBinding
+com/pdftron/demo/navigation/callbacks/JumpNavigationCallbacks.java
+ com.pdftron.demo.navigation.callbacks.JumpNavigationCallbacks
+com/pdftron/demo/utils/AddDocPdfHelper.java
+ com.pdftron.demo.utils.AddDocPdfHelper
+ com.pdftron.demo.utils.AddDocPdfHelper$1
+ com.pdftron.demo.utils.AddDocPdfHelper$2
+ com.pdftron.demo.utils.AddDocPdfHelper$3
+ com.pdftron.demo.utils.AddDocPdfHelper$4
+ com.pdftron.demo.utils.AddDocPdfHelper$5
+ com.pdftron.demo.utils.AddDocPdfHelper$5$1
+ com.pdftron.demo.utils.AddDocPdfHelper$5$2
+ com.pdftron.demo.utils.AddDocPdfHelper$6
+ com.pdftron.demo.utils.AddDocPdfHelper$7
+ com.pdftron.demo.utils.AddDocPdfHelper$8
+ com.pdftron.demo.utils.AddDocPdfHelper$AddDocPDFHelperListener
+ com.pdftron.demo.utils.AddDocPdfHelper$ConvertTask
+ com.pdftron.demo.utils.AddDocPdfHelper$MultiConvertTask
+ com.pdftron.demo.utils.AddDocPdfHelper$SingleConvertTask
+com/pdftron/demo/browser/db/file/AllFilesDataSource.java
+ com.pdftron.demo.browser.db.file.AllFilesDataSource
+ com.pdftron.demo.browser.db.file.AllFilesDataSource$1
+com/pdftron/demo/app/SettingsActivity.java
+ com.pdftron.demo.app.SettingsActivity
+ com.pdftron.demo.app.SettingsActivity$1
+com/pdftron/demo/databinding/ActivityCompleteReaderSettingsBinding.java
+ com.pdftron.demo.databinding.ActivityCompleteReaderSettingsBinding
+com/pdftron/demo/browser/ui/FilterSettingsViewModel.java
+ com.pdftron.demo.browser.ui.FilterSettingsViewModel
+ com.pdftron.demo.browser.ui.FilterSettingsViewModel$1
+ com.pdftron.demo.browser.ui.FilterSettingsViewModel$FilterState
+ com.pdftron.demo.browser.ui.FilterSettingsViewModel$SortMode
+com/pdftron/demo/navigation/CriticalPermissionDialogFragment.java
+ com.pdftron.demo.navigation.CriticalPermissionDialogFragment
+ com.pdftron.demo.navigation.CriticalPermissionDialogFragment$1
+ com.pdftron.demo.navigation.CriticalPermissionDialogFragment$2
+ com.pdftron.demo.navigation.CriticalPermissionDialogFragment$OnPermissionDialogFragmentListener
+com/pdftron/demo/browser/ui/BackupViewFragment.java
+ com.pdftron.demo.browser.ui.BackupViewFragment
+com/pdftron/demo/databinding/FragmentExternalStorageViewBinding.java
+ com.pdftron.demo.databinding.FragmentExternalStorageViewBinding
+com/pdftron/demo/databinding/DialogFileTypeFilterBinding.java
+ com.pdftron.demo.databinding.DialogFileTypeFilterBinding
+com/pdftron/demo/navigation/adapter/BaseFileAdapter.java
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$1
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$2
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$3
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$4
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$5
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$6
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$AdapterListener
+ com.pdftron.demo.navigation.adapter.BaseFileAdapter$DragEventListener
+com/pdftron/demo/browser/ui/AllFilesGridAdapter.java
+ com.pdftron.demo.browser.ui.AllFilesGridAdapter
+ com.pdftron.demo.browser.ui.AllFilesGridAdapter$1
+ com.pdftron.demo.browser.ui.AllFilesGridAdapter$2
+ com.pdftron.demo.browser.ui.AllFilesGridAdapter$3
+com/pdftron/demo/navigation/callbacks/ExternalFileManagementListener.java
+ com.pdftron.demo.navigation.callbacks.ExternalFileManagementListener
+com/pdftron/demo/widget/MoveUpwardBehaviour.java
+ com.pdftron.demo.widget.MoveUpwardBehaviour
+com/pdftron/demo/browser/ui/StickyHeader.java
+ com.pdftron.demo.browser.ui.StickyHeader
+ com.pdftron.demo.browser.ui.StickyHeader$1
+ com.pdftron.demo.browser.ui.StickyHeader$ScrollListener
+com/pdftron/demo/databinding/DialogOpenUrlBinding.java
+ com.pdftron.demo.databinding.DialogOpenUrlBinding
+com/pdftron/demo/navigation/callbacks/FileManagementListener.java
+ com.pdftron.demo.navigation.callbacks.FileManagementListener
+com/pdftron/demo/databinding/BreadcrumbBinding.java
+ com.pdftron.demo.databinding.BreadcrumbBinding
+com/pdftron/demo/databinding/FabBtnWebPdfBinding.java
+ com.pdftron.demo.databinding.FabBtnWebPdfBinding
+com/pdftron/demo/widget/menu/ActionMenuItem.java
+ com.pdftron.demo.widget.menu.ActionMenuItem
+com/pdftron/demo/app/setting/SearchSettingFragmentBase.java
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$1
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$PreferenceItem
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$PreferenceItemAdapter
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$PreferenceItemAdapter$1
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$PreferenceItemAdapter$PreferenceItemViewHolder
+ com.pdftron.demo.app.setting.SearchSettingFragmentBase$PreferenceItemAdapter$PreferenceItemViewHolder$1
+com/pdftron/demo/navigation/viewmodel/FilterMenuViewModel.java
+ com.pdftron.demo.navigation.viewmodel.FilterMenuViewModel
+ com.pdftron.demo.navigation.viewmodel.FilterMenuViewModel$OnFilterTypeChangeListener
+com/pdftron/demo/navigation/LocalFolderViewFragment.java
+ com.pdftron.demo.navigation.LocalFolderViewFragment
+ com.pdftron.demo.navigation.LocalFolderViewFragment$1
+ com.pdftron.demo.navigation.LocalFolderViewFragment$1$1
+ com.pdftron.demo.navigation.LocalFolderViewFragment$10
+ com.pdftron.demo.navigation.LocalFolderViewFragment$11
+ com.pdftron.demo.navigation.LocalFolderViewFragment$12
+ com.pdftron.demo.navigation.LocalFolderViewFragment$13
+ com.pdftron.demo.navigation.LocalFolderViewFragment$14
+ com.pdftron.demo.navigation.LocalFolderViewFragment$15
+ com.pdftron.demo.navigation.LocalFolderViewFragment$16
+ com.pdftron.demo.navigation.LocalFolderViewFragment$17
+ com.pdftron.demo.navigation.LocalFolderViewFragment$2
+ com.pdftron.demo.navigation.LocalFolderViewFragment$3
+ com.pdftron.demo.navigation.LocalFolderViewFragment$3$1
+ com.pdftron.demo.navigation.LocalFolderViewFragment$4
+ com.pdftron.demo.navigation.LocalFolderViewFragment$5
+ com.pdftron.demo.navigation.LocalFolderViewFragment$5$1
+ com.pdftron.demo.navigation.LocalFolderViewFragment$6
+ com.pdftron.demo.navigation.LocalFolderViewFragment$7
+ com.pdftron.demo.navigation.LocalFolderViewFragment$8
+ com.pdftron.demo.navigation.LocalFolderViewFragment$9
+ com.pdftron.demo.navigation.LocalFolderViewFragment$LoadingFileHandler
+ com.pdftron.demo.navigation.LocalFolderViewFragment$LocalFolderViewFragmentListener
+com/pdftron/demo/dialog/DialogOpenUrl.java
+ com.pdftron.demo.dialog.DialogOpenUrl
+ com.pdftron.demo.dialog.DialogOpenUrl$1
+ com.pdftron.demo.dialog.DialogOpenUrl$DialogOpenUrlListener
+ com.pdftron.demo.dialog.DialogOpenUrl$UrlChangeListener
+com/pdftron/demo/databinding/FragmentLocalFileViewBinding.java
+ com.pdftron.demo.databinding.FragmentLocalFileViewBinding
+com/pdftron/demo/app/setting/AnnotatingFragmentBase.java
+ com.pdftron.demo.app.setting.AnnotatingFragmentBase
+ com.pdftron.demo.app.setting.AnnotatingFragmentBase$1
+com/pdftron/demo/databinding/FragmentRecentViewBinding.java
+ com.pdftron.demo.databinding.FragmentRecentViewBinding
+com/pdftron/demo/navigation/adapter/LocalFileAdapter.java
+ com.pdftron.demo.navigation.adapter.LocalFileAdapter
+com/pdftron/demo/databinding/EmptyListViewBinding.java
+ com.pdftron.demo.databinding.EmptyListViewBinding
+com/pdftron/demo/widget/FontMultiSelectListPreference.java
+ com.pdftron.demo.widget.FontMultiSelectListPreference
+ com.pdftron.demo.widget.FontMultiSelectListPreference$1
+ com.pdftron.demo.widget.FontMultiSelectListPreference$FontPreferenceResource
+ com.pdftron.demo.widget.FontMultiSelectListPreference$PopulateFontInfoTask
+ com.pdftron.demo.widget.FontMultiSelectListPreference$PopulateFontInfoTask$1
+ com.pdftron.demo.widget.FontMultiSelectListPreference$PopulateFontInfoTask$Callback
+ com.pdftron.demo.widget.FontMultiSelectListPreference$SavedState
+ com.pdftron.demo.widget.FontMultiSelectListPreference$SavedState$1
+com/pdftron/demo/browser/db/trash/TrashEntity.java
+ com.pdftron.demo.browser.db.trash.TrashEntity
+com/pdftron/demo/viewmodel/FavoriteViewModel.java
+ com.pdftron.demo.viewmodel.FavoriteViewModel
+ com.pdftron.demo.viewmodel.FavoriteViewModel$1
+com/pdftron/demo/widget/menu/ActionSubMenu.java
+ com.pdftron.demo.widget.menu.ActionSubMenu
+com/pdftron/demo/utils/PDFTronDemoInitializer.java
+ com.pdftron.demo.utils.PDFTronDemoInitializer
+com/pdftron/demo/widget/ScrimInsetsFrameLayout.java
+ com.pdftron.demo.widget.ScrimInsetsFrameLayout
+ com.pdftron.demo.widget.ScrimInsetsFrameLayout$1
+com/pdftron/demo/browser/db/file/FileDataSource.java
+ com.pdftron.demo.browser.db.file.FileDataSource
+ com.pdftron.demo.browser.db.file.FileDataSource$QueryParams
+com/pdftron/demo/browser/ui/FilterSettingsComponent.java
+ com.pdftron.demo.browser.ui.FilterSettingsComponent
+ com.pdftron.demo.browser.ui.FilterSettingsComponent$1
+ com.pdftron.demo.browser.ui.FilterSettingsComponent$2
+ com.pdftron.demo.browser.ui.FilterSettingsComponent$FilterEvent
+com/pdftron/demo/widget/FixedNavigationView.java
+ com.pdftron.demo.widget.FixedNavigationView
+com/pdftron/demo/utils/ActivityUtils.java
+ com.pdftron.demo.utils.ActivityUtils
+ com.pdftron.demo.utils.ActivityUtils$1
+com/pdftron/demo/app/AboutDialogFragment.java
+ com.pdftron.demo.app.AboutDialogFragment
+com/pdftron/demo/browser/ui/FileBrowserTheme.java
+ com.pdftron.demo.browser.ui.FileBrowserTheme
+com/pdftron/demo/databinding/DialogStorageAccessBinding.java
+ com.pdftron.demo.databinding.DialogStorageAccessBinding
+com/pdftron/demo/utils/EmptyStateCause.java
+ com.pdftron.demo.utils.EmptyStateCause
+com/pdftron/demo/databinding/SearchSettingViewBinding.java
+ com.pdftron.demo.databinding.SearchSettingViewBinding
+com/pdftron/demo/navigation/component/html2pdf/view/Html2PdfView.java
+ com.pdftron.demo.navigation.component.html2pdf.view.Html2PdfView
+com/pdftron/demo/navigation/callbacks/OnPdfFileSharedListener.java
+ com.pdftron.demo.navigation.callbacks.OnPdfFileSharedListener
+com/pdftron/demo/widget/SimpleRecyclerFastScroller.java
+ com.pdftron.demo.widget.SimpleRecyclerFastScroller
+ com.pdftron.demo.widget.SimpleRecyclerFastScroller$1
+ com.pdftron.demo.widget.SimpleRecyclerFastScroller$HandleHider
+ com.pdftron.demo.widget.SimpleRecyclerFastScroller$ScrollListener
+com/pdftron/demo/browser/ui/StickyRecyclerView.java
+ com.pdftron.demo.browser.ui.StickyRecyclerView
+ com.pdftron.demo.browser.ui.StickyRecyclerView$StickLinearLayoutManager
+com/pdftron/demo/utils/ThumbnailPathCacheManager.java
+ com.pdftron.demo.utils.ThumbnailPathCacheManager
+ com.pdftron.demo.utils.ThumbnailPathCacheManager$1
+ com.pdftron.demo.utils.ThumbnailPathCacheManager$LazyHolder
+ com.pdftron.demo.utils.ThumbnailPathCacheManager$ThumbLruCache
+com/pdftron/demo/databinding/FabBtnBlankPdfBinding.java
+ com.pdftron.demo.databinding.FabBtnBlankPdfBinding
+com/pdftron/demo/utils/ThumbnailWorker.java
+ com.pdftron.demo.utils.ThumbnailWorker
+ com.pdftron.demo.utils.ThumbnailWorker$CancelRequestTask
+ com.pdftron.demo.utils.ThumbnailWorker$ThumbnailWorkerListener
+com/pdftron/demo/navigation/callbacks/FilePickerCallbacks.java
+ com.pdftron.demo.navigation.callbacks.FilePickerCallbacks
+com/pdftron/demo/databinding/FileInfoDrawerContentItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerContentItemBinding
+com/pdftron/demo/app/AboutDialogPreference.java
+ com.pdftron.demo.app.AboutDialogPreference
+com/pdftron/demo/databinding/DialogImportWebpageUrlSelectorBinding.java
+ com.pdftron.demo.databinding.DialogImportWebpageUrlSelectorBinding
+com/pdftron/demo/browser/ui/FilterSettingsView.java
+ com.pdftron.demo.browser.ui.FilterSettingsView
+ com.pdftron.demo.browser.ui.FilterSettingsView$1
+com/pdftron/demo/browser/model/FolderItem.java
+ com.pdftron.demo.browser.model.FolderItem
+com/pdftron/demo/app/CheckDifferentFileTypeResult.java
+ com.pdftron.demo.app.CheckDifferentFileTypeResult
+com/pdftron/demo/browser/db/file/FileDatabase.java
+ com.pdftron.demo.browser.db.file.FileDatabase
+com/pdftron/demo/browser/ui/LocalFileViewFragment.java
+ com.pdftron.demo.browser.ui.LocalFileViewFragment
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$1
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$1$1
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$10
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$11
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$12
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$13
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$13$1
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$13$2
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$14
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$15
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$16
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$17
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$18
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$19
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$2
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$20
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$21
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$22
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$23
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$3
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$4
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$4$1
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$5
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$6
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$6$1
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$7
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$8
+ com.pdftron.demo.browser.ui.LocalFileViewFragment$9
+com/pdftron/demo/navigation/FileInfoDrawerFragment.java
+ com.pdftron.demo.navigation.FileInfoDrawerFragment
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$1
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$2
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$3
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$4
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$5
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$6
+ com.pdftron.demo.navigation.FileInfoDrawerFragment$Listener
+com/pdftron/demo/databinding/RecyclerviewFooterItemBinding.java
+ com.pdftron.demo.databinding.RecyclerviewFooterItemBinding
+com/pdftron/demo/navigation/adapter/MergeAdapter.java
+ com.pdftron.demo.navigation.adapter.MergeAdapter
+com/pdftron/demo/navigation/adapter/viewholder/FooterViewHolder.java
+ com.pdftron.demo.navigation.adapter.viewholder.FooterViewHolder
+com/pdftron/demo/navigation/RecentlyDeletedViewFragment.java
+ com.pdftron.demo.navigation.RecentlyDeletedViewFragment
+ com.pdftron.demo.navigation.RecentlyDeletedViewFragment$1
+ com.pdftron.demo.navigation.RecentlyDeletedViewFragment$2
+ com.pdftron.demo.navigation.RecentlyDeletedViewFragment$3
+ com.pdftron.demo.navigation.RecentlyDeletedViewFragment$4
+com/pdftron/demo/navigation/adapter/FavoriteAdapter.java
+ com.pdftron.demo.navigation.adapter.FavoriteAdapter
+ com.pdftron.demo.navigation.adapter.FavoriteAdapter$AdapterListener
+com/pdftron/demo/databinding/FragmentFileInfoBinding.java
+ com.pdftron.demo.databinding.FragmentFileInfoBinding
+com/pdftron/demo/widget/ImageViewTopCrop.java
+ com.pdftron.demo.widget.ImageViewTopCrop
+com/pdftron/demo/navigation/callbacks/FileManagementErrorListener.java
+ com.pdftron.demo.navigation.callbacks.FileManagementErrorListener
+com/pdftron/demo/utils/SettingsManager.java
+ com.pdftron.demo.utils.SettingsManager
+com/pdftron/demo/databinding/FragmentLocalDocumentFileViewBinding.java
+ com.pdftron.demo.databinding.FragmentLocalDocumentFileViewBinding
+com/pdftron/demo/databinding/FileInfoDrawerButtonItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerButtonItemBinding
+com/pdftron/demo/databinding/FabBtnImagePdfBinding.java
+ com.pdftron.demo.databinding.FabBtnImagePdfBinding
+com/pdftron/demo/asynctask/PopulateSdFolderTask.java
+ com.pdftron.demo.asynctask.PopulateSdFolderTask
+ com.pdftron.demo.asynctask.PopulateSdFolderTask$Callback
+ com.pdftron.demo.asynctask.PublishState
+com/pdftron/demo/databinding/FabBtnAddRootBinding.java
+ com.pdftron.demo.databinding.FabBtnAddRootBinding
+com/pdftron/demo/browser/db/tree/DocumentTreeDao.java
+ com.pdftron.demo.browser.db.tree.DocumentTreeDao
+com/pdftron/demo/databinding/HeaderItemBinding.java
+ com.pdftron.demo.databinding.HeaderItemBinding
+com/pdftron/demo/widget/FileTypeFilterPopupWindow.java
+ com.pdftron.demo.widget.FileTypeFilterPopupWindow
+ com.pdftron.demo.widget.FileTypeFilterPopupWindow$1
+ com.pdftron.demo.widget.FileTypeFilterPopupWindow$FileTypeChangedListener
+com/pdftron/demo/navigation/adapter/viewholder/ContentViewHolder.java
+ com.pdftron.demo.navigation.adapter.viewholder.ContentViewHolder
+com/pdftron/demo/utils/MiscUtils.java
+ com.pdftron.demo.utils.MiscUtils
+ com.pdftron.demo.utils.MiscUtils$1
+ com.pdftron.demo.utils.MiscUtils$2
+ com.pdftron.demo.utils.MiscUtils$3
+ com.pdftron.demo.utils.MiscUtils$4
+ com.pdftron.demo.utils.MiscUtils$5
+ com.pdftron.demo.utils.MiscUtils$6
+ com.pdftron.demo.utils.MiscUtils$7
+com/pdftron/demo/browser/ui/LocalFileViewFragmentListener.java
+ com.pdftron.demo.browser.ui.LocalFileViewFragmentListener
+com/pdftron/demo/browser/model/FileEntityMapper.java
+ com.pdftron.demo.browser.model.FileEntityMapper
+com/pdftron/demo/utils/DateHeaderUtils.java
+ com.pdftron.demo.utils.DateHeaderUtils
+ com.pdftron.demo.utils.DateHeaderUtils$1
+ com.pdftron.demo.utils.DateHeaderUtils$FileListIndex
+com/pdftron/demo/utils/FileListFilter.java
+ com.pdftron.demo.utils.FileListFilter
+ com.pdftron.demo.utils.FileListFilter$FilterPublishListener
+com/pdftron/demo/widget/MoveUpwardFrameLayout.java
+ com.pdftron.demo.widget.MoveUpwardFrameLayout
+com/pdftron/demo/browser/db/file/AllDocumentFilesDataSource.java
+ com.pdftron.demo.browser.db.file.AllDocumentFilesDataSource
+com/pdftron/demo/dialog/MergeDialogFragment.java
+ com.pdftron.demo.dialog.MergeDialogFragment
+ com.pdftron.demo.dialog.MergeDialogFragment$1
+ com.pdftron.demo.dialog.MergeDialogFragment$10
+ com.pdftron.demo.dialog.MergeDialogFragment$11
+ com.pdftron.demo.dialog.MergeDialogFragment$12
+ com.pdftron.demo.dialog.MergeDialogFragment$2
+ com.pdftron.demo.dialog.MergeDialogFragment$3
+ com.pdftron.demo.dialog.MergeDialogFragment$3$1
+ com.pdftron.demo.dialog.MergeDialogFragment$4
+ com.pdftron.demo.dialog.MergeDialogFragment$5
+ com.pdftron.demo.dialog.MergeDialogFragment$6
+ com.pdftron.demo.dialog.MergeDialogFragment$7
+ com.pdftron.demo.dialog.MergeDialogFragment$8
+ com.pdftron.demo.dialog.MergeDialogFragment$9
+ com.pdftron.demo.dialog.MergeDialogFragment$MergeDialogFragmentListener
+com/pdftron/demo/databinding/FileInfoDrawerDividerItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerDividerItemBinding
+androidx/drawerlayout/widget/FixedDrawerLayout.java
+ androidx.drawerlayout.widget.FixedDrawerLayout
+com/pdftron/demo/databinding/ListviewItemTrashListBinding.java
+ com.pdftron.demo.databinding.ListviewItemTrashListBinding
+com/pdftron/demo/databinding/BreadcrumbBarBinding.java
+ com.pdftron.demo.databinding.BreadcrumbBarBinding
+com/pdftron/demo/widget/SquareRelativeLayout.java
+ com.pdftron.demo.widget.SquareRelativeLayout
+com/pdftron/demo/databinding/DialogFileTypeFilterItemBinding.java
+ com.pdftron.demo.databinding.DialogFileTypeFilterItemBinding
+com/pdftron/demo/app/setting/SettingsFragment.java
+ com.pdftron.demo.app.setting.SettingsFragment
+ com.pdftron.demo.app.setting.SettingsFragment$1
+ com.pdftron.demo.app.setting.SettingsFragment$Theme
+com/pdftron/demo/app/setting/ViewingFragmentBase.java
+ com.pdftron.demo.app.setting.ViewingFragmentBase
+com/pdftron/demo/viewmodel/RecentViewModel.java
+ com.pdftron.demo.viewmodel.RecentViewModel
+ com.pdftron.demo.viewmodel.RecentViewModel$1
+com/pdftron/demo/browser/ui/DatabaseUpdater.java
+ com.pdftron.demo.browser.ui.DatabaseUpdater
+com/pdftron/demo/browser/ui/FilesViewModel.java
+ com.pdftron.demo.browser.ui.FilesViewModel
+ com.pdftron.demo.browser.ui.FilesViewModel$1
+ com.pdftron.demo.browser.ui.FilesViewModel$10
+ com.pdftron.demo.browser.ui.FilesViewModel$2
+ com.pdftron.demo.browser.ui.FilesViewModel$3
+ com.pdftron.demo.browser.ui.FilesViewModel$4
+ com.pdftron.demo.browser.ui.FilesViewModel$5
+ com.pdftron.demo.browser.ui.FilesViewModel$6
+ com.pdftron.demo.browser.ui.FilesViewModel$7
+ com.pdftron.demo.browser.ui.FilesViewModel$8
+ com.pdftron.demo.browser.ui.FilesViewModel$9
+ com.pdftron.demo.browser.ui.FilesViewModel$FileListState
+ com.pdftron.demo.browser.ui.FilesViewModel$ListFilesViewModelFactory
+com/pdftron/demo/utils/AppUtils.java
+ com.pdftron.demo.utils.AppUtils
+com/pdftron/demo/app/setting/TabsFragmentBase.java
+ com.pdftron.demo.app.setting.TabsFragmentBase
+com/pdftron/demo/browser/db/tree/DocumentTreeEntity.java
+ com.pdftron.demo.browser.db.tree.DocumentTreeEntity
+com/pdftron/demo/app/setting/SettingFragmentBase.java
+ com.pdftron.demo.app.setting.SettingFragmentBase
+com/pdftron/demo/utils/RecursiveFileObserver.java
+ com.pdftron.demo.utils.RecursiveFileObserver
+com/pdftron/demo/utils/FrescoCustomPoolFactory.java
+ com.pdftron.demo.utils.FrescoCustomPoolFactory
+com/pdftron/demo/navigation/adapter/RecentAdapter.java
+ com.pdftron.demo.navigation.adapter.RecentAdapter
+com/pdftron/demo/browser/ui/LocalDocumentFileViewFragment.java
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$1
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$1$1
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$10
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$11
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$12
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$13
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$14
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$14$1
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$14$2
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$15
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$16
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$17
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$18
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$19
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$2
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$20
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$21
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$22
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$23
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$24
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$25
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$26
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$3
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$4
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$4$1
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$5
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$6
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$6$1
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$7
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$8
+ com.pdftron.demo.browser.ui.LocalDocumentFileViewFragment$9
+com/pdftron/demo/navigation/RecentViewFragment.java
+ com.pdftron.demo.navigation.RecentViewFragment
+ com.pdftron.demo.navigation.RecentViewFragment$1
+ com.pdftron.demo.navigation.RecentViewFragment$1$1
+ com.pdftron.demo.navigation.RecentViewFragment$10
+ com.pdftron.demo.navigation.RecentViewFragment$11
+ com.pdftron.demo.navigation.RecentViewFragment$12
+ com.pdftron.demo.navigation.RecentViewFragment$13
+ com.pdftron.demo.navigation.RecentViewFragment$14
+ com.pdftron.demo.navigation.RecentViewFragment$15
+ com.pdftron.demo.navigation.RecentViewFragment$16
+ com.pdftron.demo.navigation.RecentViewFragment$2
+ com.pdftron.demo.navigation.RecentViewFragment$3
+ com.pdftron.demo.navigation.RecentViewFragment$3$1
+ com.pdftron.demo.navigation.RecentViewFragment$4
+ com.pdftron.demo.navigation.RecentViewFragment$5
+ com.pdftron.demo.navigation.RecentViewFragment$6
+ com.pdftron.demo.navigation.RecentViewFragment$7
+ com.pdftron.demo.navigation.RecentViewFragment$8
+ com.pdftron.demo.navigation.RecentViewFragment$9
+ com.pdftron.demo.navigation.RecentViewFragment$FileInfoDrawerHelper
+ com.pdftron.demo.navigation.RecentViewFragment$RecentFilesFetcher
+ com.pdftron.demo.navigation.RecentViewFragment$RecentFilesFetcher$1
+ com.pdftron.demo.navigation.RecentViewFragment$RecentViewFragmentListener
+com/pdftron/demo/app/setting/AboutFragmentBase.java
+ com.pdftron.demo.app.setting.AboutFragmentBase
+com/pdftron/demo/widget/ForegroundRelativeLayout.java
+ com.pdftron.demo.widget.ForegroundRelativeLayout
+com/pdftron/demo/databinding/FabBtnOfficePdfBinding.java
+ com.pdftron.demo.databinding.FabBtnOfficePdfBinding
+com/pdftron/demo/databinding/ListviewItemFileListBinding.java
+ com.pdftron.demo.databinding.ListviewItemFileListBinding
+com/pdftron/demo/databinding/DialogMoveFileOverwriteBinding.java
+ com.pdftron.demo.databinding.DialogMoveFileOverwriteBinding
+com/pdftron/demo/navigation/component/html2pdf/HtmlConversionComponent.java
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent$1
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent$1$1
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent$1$2
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent$2
+ com.pdftron.demo.navigation.component.html2pdf.HtmlConversionComponent$HtmlConversionListener
+com/pdftron/demo/browser/db/folder/FolderEntity.java
+ com.pdftron.demo.browser.db.folder.FolderEntity
+com/pdftron/demo/databinding/FileInfoDrawerActionItemBinding.java
+ com.pdftron.demo.databinding.FileInfoDrawerActionItemBinding
+com/pdftron/demo/navigation/callbacks/FileUtilCallbacks.java
+ com.pdftron.demo.navigation.callbacks.FileUtilCallbacks
+com/pdftron/demo/databinding/CustomNavDrawerHeaderBinding.java
+ com.pdftron.demo.databinding.CustomNavDrawerHeaderBinding
+com/pdftron/demo/databinding/ActivityCompleteReaderBinding.java
+ com.pdftron.demo.databinding.ActivityCompleteReaderBinding
+com/pdftron/demo/navigation/FileInfoDrawer.java
+ com.pdftron.demo.navigation.FileInfoDrawer
+ com.pdftron.demo.navigation.FileInfoDrawer$Callback
+com/pdftron/demo/navigation/ToolbarFragment.java
+ com.pdftron.demo.navigation.ToolbarFragment
+ com.pdftron.demo.navigation.ToolbarFragment$BaseDelegate
+ com.pdftron.demo.navigation.ToolbarFragment$Delegate
+ com.pdftron.demo.navigation.ToolbarFragment$KitKatDelegate
+ com.pdftron.demo.navigation.ToolbarFragment$LollipopDelegate
+com/pdftron/demo/databinding/FragmentRecentlyDeletedViewBinding.java
+ com.pdftron.demo.databinding.FragmentRecentlyDeletedViewBinding
+com/pdftron/demo/utils/FileInfoComparator.java
+ com.pdftron.demo.utils.FileInfoComparator
+ com.pdftron.demo.utils.FileInfoComparator$1
+ com.pdftron.demo.utils.FileInfoComparator$2
+ com.pdftron.demo.utils.FileInfoComparator$3
+ com.pdftron.demo.utils.FileInfoComparator$4
+ com.pdftron.demo.utils.FileInfoComparator$5
+ com.pdftron.demo.utils.FileInfoComparator$6
+ com.pdftron.demo.utils.FileInfoComparator$7
+ com.pdftron.demo.utils.FileInfoComparator$8
+com/pdftron/demo/navigation/component/html2pdf/Html2PdfComponent.java
+ com.pdftron.demo.navigation.component.html2pdf.Html2PdfComponent
+ com.pdftron.demo.navigation.component.html2pdf.Html2PdfComponent$1
+com/pdftron/demo/databinding/DialogCreateFolderBinding.java
+ com.pdftron.demo.databinding.DialogCreateFolderBinding
+com/pdftron/demo/dialog/FilePickerDialogFragment.java
+ com.pdftron.demo.dialog.FilePickerDialogFragment
+ com.pdftron.demo.dialog.FilePickerDialogFragment$1
+ com.pdftron.demo.dialog.FilePickerDialogFragment$10
+ com.pdftron.demo.dialog.FilePickerDialogFragment$11
+ com.pdftron.demo.dialog.FilePickerDialogFragment$12
+ com.pdftron.demo.dialog.FilePickerDialogFragment$13
+ com.pdftron.demo.dialog.FilePickerDialogFragment$2
+ com.pdftron.demo.dialog.FilePickerDialogFragment$3
+ com.pdftron.demo.dialog.FilePickerDialogFragment$4
+ com.pdftron.demo.dialog.FilePickerDialogFragment$5
+ com.pdftron.demo.dialog.FilePickerDialogFragment$6
+ com.pdftron.demo.dialog.FilePickerDialogFragment$7
+ com.pdftron.demo.dialog.FilePickerDialogFragment$8
+ com.pdftron.demo.dialog.FilePickerDialogFragment$9
+ com.pdftron.demo.dialog.FilePickerDialogFragment$ExternalFolderListener
+ com.pdftron.demo.dialog.FilePickerDialogFragment$LocalFolderListener
+ com.pdftron.demo.dialog.FilePickerDialogFragment$MultipleFilesListener
+ com.pdftron.demo.dialog.FilePickerDialogFragment$PopulateFavoriteFileListTask
+ com.pdftron.demo.dialog.FilePickerDialogFragment$PopulateRecentFileListTask
+ com.pdftron.demo.dialog.FilePickerDialogFragment$SingleFileListener
+ com.pdftron.demo.dialog.FilePickerDialogFragment$Theme
+com/pdftron/demo/browser/db/file/FileDao.java
+ com.pdftron.demo.browser.db.file.FileDao
+com/pdftron/demo/utils/LifecycleCallback.java
+ com.pdftron.demo.utils.LifecycleCallback
+com/pdftron/demo/utils/FileManager.java
+ com.pdftron.demo.utils.FileManager
+ com.pdftron.demo.utils.FileManager$1
+ com.pdftron.demo.utils.FileManager$10
+ com.pdftron.demo.utils.FileManager$11
+ com.pdftron.demo.utils.FileManager$12
+ com.pdftron.demo.utils.FileManager$13
+ com.pdftron.demo.utils.FileManager$14
+ com.pdftron.demo.utils.FileManager$15
+ com.pdftron.demo.utils.FileManager$16
+ com.pdftron.demo.utils.FileManager$17
+ com.pdftron.demo.utils.FileManager$18
+ com.pdftron.demo.utils.FileManager$19
+ com.pdftron.demo.utils.FileManager$19$1
+ com.pdftron.demo.utils.FileManager$2
+ com.pdftron.demo.utils.FileManager$20
+ com.pdftron.demo.utils.FileManager$3
+ com.pdftron.demo.utils.FileManager$4
+ com.pdftron.demo.utils.FileManager$5
+ com.pdftron.demo.utils.FileManager$6
+ com.pdftron.demo.utils.FileManager$7
+ com.pdftron.demo.utils.FileManager$8
+ com.pdftron.demo.utils.FileManager$9
+ com.pdftron.demo.utils.FileManager$ChangeCacheFileTask
+ com.pdftron.demo.utils.FileManager$DeleteFileAsync
+ com.pdftron.demo.utils.FileManager$DeleteFileAsync$1
+ com.pdftron.demo.utils.FileManager$DeleteFileAsync$2
+ com.pdftron.demo.utils.FileManager$DuplicateFileTask
+ com.pdftron.demo.utils.FileManager$FilterDirsOnly
+ com.pdftron.demo.utils.FileManager$FilterValidFiles
+ com.pdftron.demo.utils.FileManager$FilterValidFilesAndDirs
+ com.pdftron.demo.utils.FileManager$MergeFileTask
+ com.pdftron.demo.utils.FileManager$MergeFileTask$1
+ com.pdftron.demo.utils.FileManager$MoveFileTask
+ com.pdftron.demo.utils.FileManager$MoveFileTask$1
+ com.pdftron.demo.utils.FileManager$MoveFileTask$2
+ com.pdftron.demo.utils.FileManager$MoveFileTask$3
+ com.pdftron.demo.utils.FileManager$MoveFileTask$4
+ com.pdftron.demo.utils.FileManager$MoveFileTask$5
+ com.pdftron.demo.utils.FileManager$MoveTrashFileAsync
+ com.pdftron.demo.utils.FileManager$MoveTrashFileAsync$1
+ com.pdftron.demo.utils.FileManager$MoveTrashFileAsync$2
+ com.pdftron.demo.utils.FileManager$RestoreTrashFileAsync
+ com.pdftron.demo.utils.FileManager$RestoreTrashFileAsync$1
+ com.pdftron.demo.utils.FileManager$RestoreTrashFileAsync$2
+ com.pdftron.demo.utils.FileManager$TrashFileAsync
+ com.pdftron.demo.utils.FileManager$TrashFileAsync$1
+ com.pdftron.demo.utils.FileManager$TrashFileAsync$2
+com/pdftron/demo/browser/ui/AdapterHelper.java
+ com.pdftron.demo.browser.ui.AdapterHelper
+com/pdftron/demo/utils/LifecycleUtils.java
+ com.pdftron.demo.utils.LifecycleUtils
+ com.pdftron.demo.utils.LifecycleUtils$1
+com/pdftron/demo/browser/db/trash/TrashDatabase.java
+ com.pdftron.demo.browser.db.trash.TrashDatabase
+com/pdftron/demo/navigation/viewmodel/FileSelectionViewModel.java
+ com.pdftron.demo.navigation.viewmodel.FileSelectionViewModel
+com/pdftron/demo/browser/ui/DocumentFilesDatabaseUpdater.java
+ com.pdftron.demo.browser.ui.DocumentFilesDatabaseUpdater
+ com.pdftron.demo.browser.ui.DocumentFilesDatabaseUpdater$1
+ com.pdftron.demo.browser.ui.DocumentFilesDatabaseUpdater$2
+ com.pdftron.demo.browser.ui.DocumentFilesDatabaseUpdater$MissingRootDirectoryException
+com/pdftron/demo/widget/menu/ActionMenu.java
+ com.pdftron.demo.widget.menu.ActionMenu
+com/pdftron/demo/navigation/FavoritesViewFragment.java
+ com.pdftron.demo.navigation.FavoritesViewFragment
+ com.pdftron.demo.navigation.FavoritesViewFragment$1
+ com.pdftron.demo.navigation.FavoritesViewFragment$2
+ com.pdftron.demo.navigation.FavoritesViewFragment$3
+ com.pdftron.demo.navigation.FavoritesViewFragment$3$1
+ com.pdftron.demo.navigation.FavoritesViewFragment$4
+ com.pdftron.demo.navigation.FavoritesViewFragment$5
+ com.pdftron.demo.navigation.FavoritesViewFragment$6
+ com.pdftron.demo.navigation.FavoritesViewFragment$7
+ com.pdftron.demo.navigation.FavoritesViewFragment$8
+ com.pdftron.demo.navigation.FavoritesViewFragment$FavoritesViewFragmentListener
+ com.pdftron.demo.navigation.FavoritesViewFragment$FileInfoDrawerHelper
+ com.pdftron.demo.navigation.FavoritesViewFragment$PopulateFileInfoListTask
+com/pdftron/demo/browser/ui/AllFilesListAdapter.java
+ com.pdftron.demo.browser.ui.AllFilesListAdapter
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$1
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$2
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$3
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$4
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$5
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$6
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$7
+ com.pdftron.demo.browser.ui.AllFilesListAdapter$8
+com/pdftron/demo/widget/NonSwipeableViewPager.java
+ com.pdftron.demo.widget.NonSwipeableViewPager
+com/pdftron/demo/browser/db/trash/TrashDao.java
+ com.pdftron.demo.browser.db.trash.TrashDao
+com/pdftron/demo/databinding/GridviewItemFileListBinding.java
+ com.pdftron.demo.databinding.GridviewItemFileListBinding
+com/pdftron/demo/databinding/FragmentFavoriteViewBinding.java
+ com.pdftron.demo.databinding.FragmentFavoriteViewBinding

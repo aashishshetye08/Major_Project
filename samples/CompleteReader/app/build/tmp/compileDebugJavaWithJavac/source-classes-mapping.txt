@@ -1,0 +1,18 @@
+com/pdftron/completereader/BuildConfig.java
+ com.pdftron.completereader.BuildConfig
+com/pdftron/completereader/MainActivity.java
+ com.pdftron.completereader.MainActivity
+ com.pdftron.completereader.MainActivity$1
+ com.pdftron.completereader.MainActivity$2
+ com.pdftron.completereader.MainActivity$3
+ com.pdftron.completereader.MainActivity$4
+ com.pdftron.completereader.MainActivity$5
+ com.pdftron.completereader.MainActivity$6
+com/pdftron/completereader/databinding/SimpleReaderPreviewNewBinding.java
+ com.pdftron.completereader.databinding.SimpleReaderPreviewNewBinding
+com/pdftron/completereader/databinding/ActivityMainBinding.java
+ com.pdftron.completereader.databinding.ActivityMainBinding
+com/pdftron/completereader/databinding/CompleteReaderPreviewBinding.java
+ com.pdftron.completereader.databinding.CompleteReaderPreviewBinding
+com/pdftron/completereader/databinding/DiffPreviewBinding.java
+ com.pdftron.completereader.databinding.DiffPreviewBinding

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CompleteReader.iml" filepath="$PROJECT_DIR$/.idea/modules/CompleteReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.iml" filepath="$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1822770872/CompleteReader.PDFViewCtrlTools.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CompleteReader.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-619609574/CompleteReader.pdfnet-demo-utils.unitTest.iml" />
+    </modules>
+  </component>
+</project>

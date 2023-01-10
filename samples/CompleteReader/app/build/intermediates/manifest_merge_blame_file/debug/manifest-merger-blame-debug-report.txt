@@ -1,0 +1,963 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pdftron.completereader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:8:22-63
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:9:5-71
+15-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:9:22-68
+16
+17    <application
+17-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:11:5-451:19
+18        android:name="androidx.multidex.MultiDexApplication"
+18-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:12:9-61
+19        android:allowBackup="true"
+19-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e4e60fa01183f8bb008117a464bbdf63\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:15:9-41
+24        android:largeHeap="true"
+24-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:16:9-33
+25        android:requestLegacyExternalStorage="true"
+25-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:17:9-52
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:18:9-54
+27        android:supportsRtl="true"
+27-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:19:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme"
+29-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:20:9-40
+30        android:usesCleartextTraffic="true" >
+30-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:21:9-44
+31        <meta-data
+32            android:name="pdftron_license_key"
+32-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:24:13-47
+33            android:value="YOUR_LICENSE_KEY" />
+33-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:25:13-49
+34
+35        <activity
+35-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:27:9-34:20
+36            android:name="com.pdftron.completereader.MainActivity"
+36-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:27:19-47
+37            android:exported="true" >
+37-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:27:48-71
+38            <intent-filter>
+38-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:29:17-69
+39-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:31:17-77
+41-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:36:9-40:55
+45            android:name="com.pdftron.pdf.controls.DiffActivity"
+45-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:37:13-65
+46            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+46-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:38:13-106
+47            android:theme="@style/NewUiAppTheme"
+47-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:39:13-49
+48            android:windowSoftInputMode="adjustPan" />
+48-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:40:13-52
+49        <activity
+49-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:42:9-46:55
+50            android:name="com.pdftron.demo.app.SimpleReaderActivity"
+50-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:43:13-69
+51            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+51-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:44:13-106
+52            android:theme="@style/NewUiAppTheme"
+52-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:45:13-49
+53            android:windowSoftInputMode="adjustPan" />
+53-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:46:13-52
+54        <activity
+54-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:48:9-445:20
+55            android:name="com.pdftron.demo.app.AdvancedReaderActivity"
+55-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:49:13-71
+56            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+56-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:51:13-106
+57            android:exported="true"
+57-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:50:13-36
+58            android:theme="@style/NewUiAppTheme"
+58-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:52:13-49
+59            android:windowSoftInputMode="adjustPan" >
+59-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:53:13-52
+60            <intent-filter>
+60-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:55:13-75:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:17-69
+61-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:25-66
+62                <action android:name="android.intent.action.EDIT" />
+62-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:57:17-69
+62-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:57:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:17-76
+64-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:27-73
+65
+66                <data android:mimeType="application/pdf" />
+66-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+66-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+67                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+67-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+67-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+68                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+68-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+68-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+69                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+69-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+69-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+70                <data android:mimeType="application/msword" />
+70-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+70-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+71                <data android:mimeType="application/vnd.ms-excel" />
+71-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+71-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+72                <data android:mimeType="application/vnd.ms-powerpoint" />
+72-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+72-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+73                <data android:mimeType="image/jpeg" />
+73-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+73-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+74                <data android:mimeType="image/gif" />
+74-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+74-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+75                <data android:mimeType="image/png" />
+75-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+75-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+76                <data android:mimeType="image/tiff" />
+76-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+76-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+77                <data android:mimeType="application/x-cbr" />
+77-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+77-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+78                <data android:mimeType="text/markdown" />
+78-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+78-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+79                <data android:mimeType="text/plain" />
+79-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+79-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:23-57
+80            </intent-filter>
+81            <intent-filter>
+81-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:77:13-211:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:17-69
+82-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:25-66
+83                <action android:name="android.intent.action.EDIT" />
+83-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:57:17-69
+83-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:57:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:17-76
+85-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:27-73
+86
+87                <data
+87-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+88                    android:host="*"
+88-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+89                    android:pathPattern=".*\\.pdf"
+89-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+90                    android:scheme="file" />
+90-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+91                <data
+91-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+92                    android:host="*"
+92-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+93                    android:pathPattern=".*\\.PDF"
+93-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+94                    android:scheme="file" />
+94-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+95                <data
+95-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+96                    android:host="*"
+96-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+97                    android:pathPattern=".*\\.doc"
+97-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+98                    android:scheme="file" />
+98-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+99                <data
+99-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+100                    android:host="*"
+100-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+101                    android:pathPattern=".*\\.DOC"
+101-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+102                    android:scheme="file" />
+102-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+103                <data
+103-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+104                    android:host="*"
+104-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+105                    android:pathPattern=".*\\.docx"
+105-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+106                    android:scheme="file" />
+106-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+107                <data
+107-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+108                    android:host="*"
+108-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+109                    android:pathPattern=".*\\.DOCX"
+109-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+110                    android:scheme="file" />
+110-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+111                <data
+111-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+112                    android:host="*"
+112-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+113                    android:pathPattern=".*\\.ppt"
+113-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+114                    android:scheme="file" />
+114-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+115                <data
+115-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+116                    android:host="*"
+116-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+117                    android:pathPattern=".*\\.PPT"
+117-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+118                    android:scheme="file" />
+118-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+119                <data
+119-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+120                    android:host="*"
+120-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+121                    android:pathPattern=".*\\.pptx"
+121-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+122                    android:scheme="file" />
+122-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+123                <data
+123-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+124                    android:host="*"
+124-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+125                    android:pathPattern=".*\\.PPTX"
+125-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+126                    android:scheme="file" />
+126-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+127                <data
+127-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+128                    android:host="*"
+128-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+129                    android:pathPattern=".*\\.xls"
+129-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+130                    android:scheme="file" />
+130-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+131                <data
+131-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+132                    android:host="*"
+132-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+133                    android:pathPattern=".*\\.XLS"
+133-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+134                    android:scheme="file" />
+134-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+135                <data
+135-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+136                    android:host="*"
+136-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+137                    android:pathPattern=".*\\.xlsx"
+137-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+138                    android:scheme="file" />
+138-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+139                <data
+139-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+140                    android:host="*"
+140-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+141                    android:pathPattern=".*\\.XLSX"
+141-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+142                    android:scheme="file" />
+142-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+143                <data
+143-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+144                    android:host="*"
+144-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+145                    android:pathPattern=".*\\.jpg"
+145-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+146                    android:scheme="file" />
+146-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+147                <data
+147-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+148                    android:host="*"
+148-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+149                    android:pathPattern=".*\\.JPG"
+149-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+150                    android:scheme="file" />
+150-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+151                <data
+151-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+152                    android:host="*"
+152-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+153                    android:pathPattern=".*\\.png"
+153-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+154                    android:scheme="file" />
+154-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+155                <data
+155-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+156                    android:host="*"
+156-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+157                    android:pathPattern=".*\\.PNG"
+157-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+158                    android:scheme="file" />
+158-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+159                <data
+159-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+160                    android:host="*"
+160-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+161                    android:pathPattern=".*\\.jpeg"
+161-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+162                    android:scheme="file" />
+162-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+163                <data
+163-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+164                    android:host="*"
+164-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+165                    android:pathPattern=".*\\.JPEG"
+165-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+166                    android:scheme="file" />
+166-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+167                <data
+167-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+168                    android:host="*"
+168-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+169                    android:pathPattern=".*\\.gif"
+169-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+170                    android:scheme="file" />
+170-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+171                <data
+171-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+172                    android:host="*"
+172-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+173                    android:pathPattern=".*\\.GIF"
+173-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+174                    android:scheme="file" />
+174-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+175                <data
+175-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+176                    android:host="*"
+176-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+177                    android:pathPattern=".*\\.bmp"
+177-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+178                    android:scheme="file" />
+178-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+179                <data
+179-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+180                    android:host="*"
+180-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+181                    android:pathPattern=".*\\.BMP"
+181-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+182                    android:scheme="file" />
+182-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+183                <data
+183-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+184                    android:host="*"
+184-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+185                    android:pathPattern=".*\\.tif"
+185-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+186                    android:scheme="file" />
+186-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+187                <data
+187-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+188                    android:host="*"
+188-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+189                    android:pathPattern=".*\\.TIF"
+189-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+190                    android:scheme="file" />
+190-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+191                <data
+191-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+192                    android:host="*"
+192-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+193                    android:pathPattern=".*\\.tiff"
+193-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+194                    android:scheme="file" />
+194-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+195                <data
+195-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+196                    android:host="*"
+196-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+197                    android:pathPattern=".*\\.TIFF"
+197-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+198                    android:scheme="file" />
+198-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+199                <data
+199-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+200                    android:host="*"
+200-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+201                    android:pathPattern=".*\\.cbz"
+201-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+202                    android:scheme="file" />
+202-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+203                <data
+203-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+204                    android:host="*"
+204-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+205                    android:pathPattern=".*\\.CBZ"
+205-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+206                    android:scheme="file" />
+206-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+207                <data
+207-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+208                    android:host="*"
+208-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+209                    android:pathPattern=".*\\.md"
+209-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+210                    android:scheme="file" />
+210-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+211                <data
+211-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+212                    android:host="*"
+212-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+213                    android:pathPattern=".*\\.MD"
+213-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+214                    android:scheme="file" />
+214-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+215            </intent-filter>
+216            <intent-filter>
+216-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:213:13-443:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:17-69
+217-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:56:25-66
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:17-76
+219-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:59:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:217:17-78
+220-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:217:27-75
+221
+222                <data
+222-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+223                    android:host="*"
+223-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+224                    android:pathPattern=".*\\.pdf"
+224-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+225                    android:scheme="http" />
+225-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+226                <data
+226-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+227                    android:host="*"
+227-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+228                    android:pathPattern=".*\\.pdf"
+228-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+229                    android:scheme="https" />
+229-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+230                <data
+230-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+231                    android:host="*"
+231-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+232                    android:pathPattern=".*\\.PDF"
+232-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+233                    android:scheme="http" />
+233-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+234                <data
+234-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+235                    android:host="*"
+235-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+236                    android:pathPattern=".*\\.PDF"
+236-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+237                    android:scheme="https" />
+237-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+238                <data
+238-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+239                    android:host="*"
+239-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+240                    android:pathPattern=".*\\.doc"
+240-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+241                    android:scheme="http" />
+241-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+242                <data
+242-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+243                    android:host="*"
+243-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+244                    android:pathPattern=".*\\.doc"
+244-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+245                    android:scheme="https" />
+245-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+246                <data
+246-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+247                    android:host="*"
+247-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+248                    android:pathPattern=".*\\.DOC"
+248-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+249                    android:scheme="http" />
+249-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+250                <data
+250-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+251                    android:host="*"
+251-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+252                    android:pathPattern=".*\\.DOC"
+252-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+253                    android:scheme="https" />
+253-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+254                <data
+254-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+255                    android:host="*"
+255-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+256                    android:pathPattern=".*\\.docx"
+256-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+257                    android:scheme="http" />
+257-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+258                <data
+258-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+259                    android:host="*"
+259-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+260                    android:pathPattern=".*\\.docx"
+260-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+261                    android:scheme="https" />
+261-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+262                <data
+262-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+263                    android:host="*"
+263-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+264                    android:pathPattern=".*\\.DOCX"
+264-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+265                    android:scheme="http" />
+265-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+266                <data
+266-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+267                    android:host="*"
+267-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+268                    android:pathPattern=".*\\.DOCX"
+268-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+269                    android:scheme="https" />
+269-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+270                <data
+270-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+271                    android:host="*"
+271-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+272                    android:pathPattern=".*\\.ppt"
+272-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+273                    android:scheme="http" />
+273-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+274                <data
+274-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+275                    android:host="*"
+275-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+276                    android:pathPattern=".*\\.ppt"
+276-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+277                    android:scheme="https" />
+277-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+278                <data
+278-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+279                    android:host="*"
+279-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+280                    android:pathPattern=".*\\.PPT"
+280-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+281                    android:scheme="http" />
+281-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+282                <data
+282-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+283                    android:host="*"
+283-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+284                    android:pathPattern=".*\\.PPT"
+284-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+285                    android:scheme="https" />
+285-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+286                <data
+286-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+287                    android:host="*"
+287-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+288                    android:pathPattern=".*\\.pptx"
+288-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+289                    android:scheme="http" />
+289-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+290                <data
+290-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+291                    android:host="*"
+291-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+292                    android:pathPattern=".*\\.pptx"
+292-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+293                    android:scheme="https" />
+293-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+294                <data
+294-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+295                    android:host="*"
+295-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+296                    android:pathPattern=".*\\.PPTX"
+296-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+297                    android:scheme="http" />
+297-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+298                <data
+298-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+299                    android:host="*"
+299-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+300                    android:pathPattern=".*\\.PPTX"
+300-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+301                    android:scheme="https" />
+301-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+302                <data
+302-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+303                    android:host="*"
+303-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+304                    android:pathPattern=".*\\.xls"
+304-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+305                    android:scheme="http" />
+305-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+306                <data
+306-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+307                    android:host="*"
+307-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+308                    android:pathPattern=".*\\.xls"
+308-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+309                    android:scheme="https" />
+309-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+310                <data
+310-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+311                    android:host="*"
+311-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+312                    android:pathPattern=".*\\.XLS"
+312-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+313                    android:scheme="http" />
+313-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+314                <data
+314-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+315                    android:host="*"
+315-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+316                    android:pathPattern=".*\\.XLS"
+316-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+317                    android:scheme="https" />
+317-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+318                <data
+318-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+319                    android:host="*"
+319-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+320                    android:pathPattern=".*\\.xlsx"
+320-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+321                    android:scheme="http" />
+321-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+322                <data
+322-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+323                    android:host="*"
+323-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+324                    android:pathPattern=".*\\.xlsx"
+324-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+325                    android:scheme="https" />
+325-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+326                <data
+326-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+327                    android:host="*"
+327-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+328                    android:pathPattern=".*\\.XLSX"
+328-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+329                    android:scheme="http" />
+329-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+330                <data
+330-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+331                    android:host="*"
+331-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+332                    android:pathPattern=".*\\.XLSX"
+332-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+333                    android:scheme="https" />
+333-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+334                <data
+334-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+335                    android:host="*"
+335-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+336                    android:pathPattern=".*\\.jpeg"
+336-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+337                    android:scheme="http" />
+337-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+338                <data
+338-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+339                    android:host="*"
+339-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+340                    android:pathPattern=".*\\.jpeg"
+340-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+341                    android:scheme="https" />
+341-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+342                <data
+342-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+343                    android:host="*"
+343-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+344                    android:pathPattern=".*\\.JPEG"
+344-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+345                    android:scheme="http" />
+345-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+346                <data
+346-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+347                    android:host="*"
+347-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+348                    android:pathPattern=".*\\.JPEG"
+348-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+349                    android:scheme="https" />
+349-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+350                <data
+350-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+351                    android:host="*"
+351-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+352                    android:pathPattern=".*\\.jpg"
+352-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+353                    android:scheme="http" />
+353-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+354                <data
+354-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+355                    android:host="*"
+355-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+356                    android:pathPattern=".*\\.jpg"
+356-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+357                    android:scheme="https" />
+357-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+358                <data
+358-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+359                    android:host="*"
+359-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+360                    android:pathPattern=".*\\.JPG"
+360-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+361                    android:scheme="http" />
+361-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+362                <data
+362-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+363                    android:host="*"
+363-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+364                    android:pathPattern=".*\\.JPG"
+364-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+365                    android:scheme="https" />
+365-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+366                <data
+366-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+367                    android:host="*"
+367-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+368                    android:pathPattern=".*\\.gif"
+368-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+369                    android:scheme="http" />
+369-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+370                <data
+370-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+371                    android:host="*"
+371-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+372                    android:pathPattern=".*\\.gif"
+372-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+373                    android:scheme="https" />
+373-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+374                <data
+374-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+375                    android:host="*"
+375-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+376                    android:pathPattern=".*\\.GIF"
+376-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+377                    android:scheme="http" />
+377-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+378                <data
+378-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+379                    android:host="*"
+379-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+380                    android:pathPattern=".*\\.GIF"
+380-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+381                    android:scheme="https" />
+381-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+382                <data
+382-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+383                    android:host="*"
+383-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+384                    android:pathPattern=".*\\.png"
+384-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+385                    android:scheme="http" />
+385-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+386                <data
+386-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+387                    android:host="*"
+387-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+388                    android:pathPattern=".*\\.png"
+388-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+389                    android:scheme="https" />
+389-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+390                <data
+390-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+391                    android:host="*"
+391-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+392                    android:pathPattern=".*\\.PNG"
+392-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+393                    android:scheme="http" />
+393-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+394                <data
+394-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+395                    android:host="*"
+395-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+396                    android:pathPattern=".*\\.PNG"
+396-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+397                    android:scheme="https" />
+397-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+398                <data
+398-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+399                    android:host="*"
+399-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+400                    android:pathPattern=".*\\.bmp"
+400-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+401                    android:scheme="http" />
+401-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+402                <data
+402-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+403                    android:host="*"
+403-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+404                    android:pathPattern=".*\\.bmp"
+404-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+405                    android:scheme="https" />
+405-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+406                <data
+406-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+407                    android:host="*"
+407-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+408                    android:pathPattern=".*\\.BMP"
+408-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+409                    android:scheme="http" />
+409-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+410                <data
+410-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+411                    android:host="*"
+411-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+412                    android:pathPattern=".*\\.BMP"
+412-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+413                    android:scheme="https" />
+413-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+414                <data
+414-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+415                    android:host="*"
+415-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+416                    android:pathPattern=".*\\.cbz"
+416-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+417                    android:scheme="http" />
+417-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+418                <data
+418-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+419                    android:host="*"
+419-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+420                    android:pathPattern=".*\\.cbz"
+420-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+421                    android:scheme="https" />
+421-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+422                <data
+422-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+423                    android:host="*"
+423-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+424                    android:pathPattern=".*\\.CBZ"
+424-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+425                    android:scheme="http" />
+425-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+426                <data
+426-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+427                    android:host="*"
+427-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+428                    android:pathPattern=".*\\.CBZ"
+428-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+429                    android:scheme="https" />
+429-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+430                <data
+430-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+431                    android:host="*"
+431-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+432                    android:pathPattern=".*\\.md"
+432-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+433                    android:scheme="http" />
+433-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+434                <data
+434-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+435                    android:host="*"
+435-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+436                    android:pathPattern=".*\\.md"
+436-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+437                    android:scheme="https" />
+437-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+438                <data
+438-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+439                    android:host="*"
+439-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+440                    android:pathPattern=".*\\.MD"
+440-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+441                    android:scheme="http" />
+441-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+442                <data
+442-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:61:17-60
+443                    android:host="*"
+443-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:84:21-37
+444                    android:pathPattern=".*\\.MD"
+444-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:85:21-51
+445                    android:scheme="https" />
+445-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:86:21-42
+446            </intent-filter>
+447        </activity>
+448        <activity
+448-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:447:9-450:52
+449            android:name="com.pdftron.demo.app.SettingsActivity"
+449-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:448:13-65
+450            android:parentActivityName="com.pdftron.demo.app.AdvancedReaderActivity"
+450-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:449:13-85
+451            android:theme="@style/NewUiAppTheme" />
+451-->D:\Project\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:450:13-49
+452
+453        <provider
+453-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-14:40
+454            android:name="com.pdftron.demo.utils.PDFTronDemoInitializer"
+454-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-73
+455            android:authorities="com.pdftron.completereader.pdftron-demo"
+455-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-64
+456            android:exported="false" />
+456-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+457        <provider
+457-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-27:20
+458            android:name="com.pdftron.pdf.utils.ShareProvider"
+458-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-63
+459            android:authorities="com.pdftron.completereader.pdftron.fileprovider"
+459-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-72
+460            android:exported="false"
+460-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+461            android:grantUriPermissions="true" >
+461-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-47
+462            <meta-data
+462-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:66
+463                android:name="android.support.FILE_PROVIDER_PATHS"
+463-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-67
+464                android:resource="@xml/pdftron_provider_paths" />
+464-->[:pdfnet-demo-utils] D:\Project\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-63
+465        </provider>
+466        <provider
+466-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a3f1e8955391d1255986e79f68df1389\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+467            android:name="com.squareup.picasso.PicassoProvider"
+467-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a3f1e8955391d1255986e79f68df1389\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+468            android:authorities="com.pdftron.completereader.com.squareup.picasso"
+468-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a3f1e8955391d1255986e79f68df1389\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+469            android:exported="false" />
+469-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a3f1e8955391d1255986e79f68df1389\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+470
+471        <service
+471-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f32702d66d0ca034454ff5577011a2c1\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+472            android:name="androidx.room.MultiInstanceInvalidationService"
+472-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f32702d66d0ca034454ff5577011a2c1\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+473            android:directBootAware="true"
+473-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f32702d66d0ca034454ff5577011a2c1\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+474            android:exported="false" />
+474-->[androidx.room:room-runtime:2.4.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f32702d66d0ca034454ff5577011a2c1\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+475
+476        <provider
+476-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2d25f95281113cadc6574ee6a3fb22e3\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+477            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+477-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2d25f95281113cadc6574ee6a3fb22e3\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+478            android:authorities="com.pdftron.completereader.lifecycle-process"
+478-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2d25f95281113cadc6574ee6a3fb22e3\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+479            android:exported="false"
+479-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2d25f95281113cadc6574ee6a3fb22e3\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+480            android:multiprocess="true" />
+480-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2d25f95281113cadc6574ee6a3fb22e3\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+481    </application>
+482
+483</manifest>

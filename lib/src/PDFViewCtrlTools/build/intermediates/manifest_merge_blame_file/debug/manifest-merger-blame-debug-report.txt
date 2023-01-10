@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.pdftron.pdf.tools" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml
+8        android:targetSdkVersion="31" />
+8-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml
+9
+10    <application>
+10-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:6:5-26:19
+11        <provider
+11-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:7:9-10:40
+12            android:name="com.pdftron.pdf.utils.PDFTronToolsInitializer"
+12-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:8:13-73
+13            android:authorities="${applicationId}.pdftron-tools"
+13-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:9:13-65
+14            android:exported="false" />
+14-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:10:13-37
+15        <provider
+15-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:12:9-15:35
+16            android:name="com.pdftron.pdfnet.PDFNetInitializer"
+16-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:13:13-64
+17            android:authorities="${applicationId}.pdftron-pdfnet"
+17-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:14:13-66
+18            tools:node="remove" />
+18-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:15:13-32
+19        <provider
+19-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:17:9-25:20
+20            android:name="com.pdftron.pdf.utils.ShareProvider"
+20-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:18:13-63
+21            android:authorities="${applicationId}.pdftron.fileprovider"
+21-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:19:13-72
+22            android:exported="false"
+22-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:20:13-37
+23            android:grantUriPermissions="true" >
+23-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:21:13-47
+24            <meta-data
+24-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:22:13-24:66
+25                android:name="android.support.FILE_PROVIDER_PATHS"
+25-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:23:17-67
+26                android:resource="@xml/pdftron_provider_paths" />
+26-->D:\Project\PDFNetAndroid\lib\src\PDFViewCtrlTools\AndroidManifest.xml:24:17-63
+27        </provider>
+28    </application>
+29
+30</manifest>

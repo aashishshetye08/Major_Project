@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "map": [
+                {
+                    "source": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\values-v29\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "157,57",
+                        "endColumns": "86,98",
+                        "endOffsets": "239,151"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,142",
+                        "endColumns": "86,98",
+                        "endOffsets": "137,236"
+                    }
+                }
+            ]
+        }
+    ]
+}

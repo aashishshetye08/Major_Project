@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_reader_preview_new.xml",
+        "source": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\layout\\simple_reader_preview_new.xml"
+    },
+    {
+        "merged": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\complete_reader_preview.xml",
+        "source": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\layout\\complete_reader_preview.xml"
+    },
+    {
+        "merged": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\diff_preview.xml",
+        "source": "D:\\Project\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\layout\\diff_preview.xml"
+    }
+]
